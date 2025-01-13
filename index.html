@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Universal Calculator</h1>
+        <p>Select the type of calculation you want to perform:</p>
+        <div class="form-group">
+            <label for="calcType">Choose a Calculation Type:</label>
+            <select id="calcType">
+                <option value="addition">Addition</option>
+                <option value="subtraction">Subtraction</option>
+                <option value="multiplication">Multiplication</option>
+                <option value="division">Division</option>
+                <option value="weight">Weight Calculation</option>
+                <option value="cost">Cost Calculation</option>
+            </select>
+        </div>
+
+        <div id="inputFields">
+            <!-- Dynamic fields will appear here -->
+        </div>
+
+        <button id="calculateBtn">Calculate</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
